@@ -5,27 +5,19 @@ This repo contains samples that demonstrate various .NET Core Docker configurati
 
 Docker uses [docker/whalesay](https://hub.docker.com/r/docker/whalesay/) as a getting started sample. The .NET Core Team at Microsoft uses [dotnetbot](https://github.com/dotnet-bot), which is the mascot for .NET open source projects. Got something to say? Both whalesay and dotnetbot are great listeners.
 
-You can pick the sample that best fits the scenario you are interested in. The instructions for each sample describe how to target Windows or Linux Docker images, from Windows, Linux or macOS.
+You can pick the sample that best fits the scenario you are interested in. The instructions for each sample describe how to target [Windows](http://aka.ms/windowscontainers) or Linux Docker images, from Windows, Linux or macOS.
 
 You need to have the [.NET Core SDK](https://dot.net/core) and [Docker client](https://www.docker.com/products/docker) installed to use these samples. 
 
 ### Getting Started
 
-The easiest way to get started is to run a pre-built sample that has been published to Docker Hub. This sample demonstrates the base experience of a .NET Core app in a Docker image. Simply run the following command:
+You can run a [sample application](https://hub.docker.com/r/microsoft/dotnet-samples/) (Linux image) that runs from a pre-built image that has been published to Docker Hub. The source of this sample application is the [dotnetapp-prod](dotnetapp-prod) sample.
 
 ```console
 docker run microsoft/dotnet-samples
 ```
 
-For Windows containers, run the following command:
-
-```console
-docker run microsoft/dotnet-samples:windowsservercore
-```
-
 It is recomended to run the sample twice. The second run will not include downloading the image, so is more representative of typical Docker use.
-
-The source for the [microsoft/dotnet-samples](https://hub.docker.com/r/microsoft/dotnet-samples/) repo is the [dotnetapp-prod](dotnetapp-prod) sample.
 
 Samples
 -------
@@ -43,7 +35,7 @@ The following samples show different ways to use .NET Core images.
 
 ### Preview
 
-- [dotnetapp-preview](dotnetapp-preview) -- This sample demonstrates how to configure an application to use the .NET Core 1.1 preview image. Both project.json and the Dockerfile have been updated to depend on .NET Core 1.1. 
+- [dotnetapp-preview](dotnetapp-preview) -- This sample demonstrates how to configure an application to use the .NET Core 1.1 preview image. Both project.json and the Dockerfile have been updated to depend on .NET Core 1.1. This sample is the same as [dotnetapp-prod](dotnetapp-prod) with the exception of relying on a later .NET Core version.
 
 Notes
 -----
