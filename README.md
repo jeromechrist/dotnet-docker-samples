@@ -7,7 +7,7 @@ Docker uses [docker/whalesay](https://hub.docker.com/r/docker/whalesay/) as a ge
 
 You can pick the sample that best fits the scenario you are interested in. The instructions for each sample describe how to target [Windows](http://aka.ms/windowscontainers) or Linux Docker images, from Windows, Linux or macOS.
 
-You need to have the [.NET Core SDK](https://dot.net/core) and [Docker client](https://www.docker.com/products/docker) installed to use these samples. 
+You need to have the [.NET Core SDK](https://dot.net/core) and [Git](https://git-scm.com/downloads) and [Docker client](https://www.docker.com/products/docker) clients installed to use these samples.
 
 ### Getting Started
 
@@ -45,3 +45,18 @@ The dotnetbot-prod sample is best for production scenarios where there are multi
 The current tools for creating [self-contained .NET Core apps](https://docs.microsoft.com/dotnet/articles/core/deploying/) is not yet optimal. These tools will be improved so that self-contained apps are *much* smaller and also easier to produce.
 
 There is a pattern of names ("-prod", "-selfcontained") established by the samples. They are not suggested as general purpose names, but are used here almost like tags to differentiate multiple usese of the single dotnetapp sample. There is also a pattern of Dockerfile naming (Dockerfile, Dockerfile.nano). This pattern of naming is only needed in cases where an app is deployed to multiple operating system. If your app has only one configuration, you should just use the default "Dockerfile" naming, which is simpler and skips the need for the Docker `-f` argument.
+
+Related Repositories
+--------------------
+
+See the following related Docker Hub repos:
+
+- [microsoft/dotnet](https://hub.docker.com/r/microsoft/dotnet/) for .NET Core images.
+- [microsoft/dotnet-samples](https://hub.docker.com/r/microsoft/dotnet-framework/) for .NET Core sample images.
+- [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) for ASP.NET Core images.
+- [microsoft/aspnet](https://hub.docker.com/r/microsoft/aspnet/) for ASP.NET Web Forms and MVC images.
+- [microsoft/dotnet-framework](https://hub.docker.com/r/microsoft/dotnet-framework/) for .NET Framework images (for web applications, see microsoft/aspnet).
+
+See the following related  GitHub repos:
+
+- [microsoft/dotnet-framework-docker-samples](https://hub.docker.com/r/microsoft/aspnetcore/) for .NET Framework samples.
