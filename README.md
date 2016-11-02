@@ -59,4 +59,4 @@ See the following related Docker Hub repos:
 
 See the following related  GitHub repos:
 
-- [microsoft/dotnet-framework-docker-samples](https://hub.docker.com/r/microsoft/aspnetcore/) for .NET Framework samples.
+- [microsoft/dotnet-framework-docker-samples](https://github.com/microsoft/dotnet-framework0docker-samples/) for .NET Framework samples.
