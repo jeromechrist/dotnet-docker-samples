@@ -52,7 +52,7 @@ Related Repositories
 See the following related Docker Hub repos:
 
 - [microsoft/dotnet](https://hub.docker.com/r/microsoft/dotnet/) for .NET Core images.
-- [microsoft/dotnet-samples](https://hub.docker.com/r/microsoft/dotnet-framework/) for .NET Core sample images.
+- [microsoft/dotnet-samples](https://hub.docker.com/r/microsoft/dotnet-samples/) for .NET Core sample images.
 - [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) for ASP.NET Core images.
 - [microsoft/aspnet](https://hub.docker.com/r/microsoft/aspnet/) for ASP.NET Web Forms and MVC images.
 - [microsoft/dotnet-framework](https://hub.docker.com/r/microsoft/dotnet-framework/) for .NET Framework images (for web applications, see microsoft/aspnet).
