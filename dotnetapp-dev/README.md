@@ -10,7 +10,7 @@ Script
 
 Follow these steps to try out this sample. The instructions are operating system agnostic unless called out. They assume that you already have [Git](https://git-scm.com/downloads) and [Docker](https://www.docker.com/products/docker) clients installed.
 
-The instructions assume you already know how to target Linux or Windows containers. Do try both, however, you need your environment correctly configured. You can only try Windows containers on the latest Windows 10 or Windows Server 2016.
+The instructions assume you already know how to target Linux or Windows containers. To try both, however, you need your environment correctly configured. You can only try Windows containers on the latest Windows 10 or Windows Server 2016.
 
 **Preparing your Environment**
 
